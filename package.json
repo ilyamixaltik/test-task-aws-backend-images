@@ -2,10 +2,10 @@
   "name": "test-tasks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "serve": "node index.js",
-    "dev": "nodemon index.js"
+    "serve": "node index.ts",
+    "dev": "nodemon index.ts"
   },
   "author": "Ilya Mixaltik",
   "license": "ISC",
