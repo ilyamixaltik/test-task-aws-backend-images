@@ -23,3 +23,5 @@ export const mySQL: MySQL = {
   password: MYSQL_PASSWORD || 'password',
   database: MYSQL_DATABASE || 'test'
 }
+
+export const dataBaseLink: string = `mysql://${mySQL.user}:${mySQL.password}@${mySQL.host}:${mySQL.port}/${mySQL.database}`;
